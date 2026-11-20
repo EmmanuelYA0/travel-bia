@@ -15,7 +15,7 @@ const Hero = () => {
             Vivez la route, <span className="text-[#f6a623]">pas seulement</span> la destination.
           </h1>
           <p className="mt-7 max-w-[480px] text-lg leading-8 text-white/80">
-            De la lagune EbriE aux panoramas du Mont Nimba, voyagez autrement avec des adresses choisies par ceux qui la connaissent.
+            De la lagune Ebrié aux panoramas du Mont Nimba, voyagez autrement avec des adresses choisies par ceux qui la connaissent.
           </p>
           <div className="mt-9 flex flex-wrap gap-3">
             <Button type="button" title="Explorer les lieux" variant="btn_orange" />
