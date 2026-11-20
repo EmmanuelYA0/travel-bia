@@ -1,16 +1,23 @@
 import { NAV_LINKS } from "@/constants"
 import Image from "next/image"
 import Link from "next/link"
-import Button from "./Button"
 
 const Navbar = () => {
   return (
     <nav className="flexBetween max-container padding-container relative z-30 py-5">
-      <Link href="/">
-        <div className="flex items-center gap-3">
-          <span className="flex h-10 w-10 items-center justify-center rounded-full bg-orange-500 text-xl font-bold text-white">B</span>
-          <span className="text-[22px] font-extrabold tracking-tight text-[#17392c]">bia</span>
-        </div>
+      <Link href="/" aria-label="Bia, accueil" className="flex items-center gap-3">
+        <Image
+          src="/bia-mark.svg"
+          alt=""
+          width={40}
+          height={40}
+          priority
+          className="h-10 w-10 rounded-xl shadow-sm"
+        />
+        <span className="flex flex-col leading-none">
+          <span className="text-[25px] font-extrabold tracking-[-0.06em] text-[#17392c]">bia</span>
+          <span className="mt-1 text-[9px] font-bold uppercase tracking-[0.16em] text-[#647068]">Cote d'Ivoire</span>
+        </span>
       </Link>
 
       <ul className="hidden h-full gap-12 lg:flex">

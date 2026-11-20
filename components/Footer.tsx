@@ -8,8 +8,18 @@ const Footer = () => {
       <div className="grid gap-12 border-t border-[#17392c]/15 py-12 md:grid-cols-4">
         <div>
           <Link href="/" className="flex items-center gap-3">
-            <span className="flex h-10 w-10 items-center justify-center rounded-full bg-[#d96f32] text-xl font-bold text-white">B</span>
-            <span className="text-[22px] font-extrabold text-[#17392c]">bia</span>
+            <Image
+                      src="/bia-mark.svg"
+                      alt=""
+                      width={40}
+                      height={40}
+                      priority
+                      className="h-10 w-10 rounded-xl shadow-sm"
+                    />
+                    <span className="flex flex-col leading-none">
+                      <span className="text-[25px] font-extrabold tracking-[-0.06em] text-[#17392c]">bia</span>
+                      <span className="mt-1 text-[9px] font-bold uppercase tracking-[0.16em] text-[#647068]">Cote d'Ivoire</span>
+                    </span>
           </Link>
           <p className="mt-5 max-w-[220px] text-sm leading-6 text-[#647068]">
             Decouvrez la Cote d Ivoire avec celles et ceux qui la vivent.

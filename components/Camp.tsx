@@ -58,9 +58,9 @@ const Camp = () => {
         <button className="hidden rounded-full border border-[#17392c]/20 px-6 py-3 font-bold text-[#17392c] md:block">Toutes les destinations</button>
       </div>
       <div className="grid gap-5 md:grid-cols-3">
-        <DestinationCard image="/img-1.png" place="Region des Lagunes" title="Abidjan" tag="Urbain" />
-        <DestinationCard image="/img-2.png" place="Sud-Ouest" title="Assinie" tag="Plages" />
-        <DestinationCard image="/boat.png" place="Savanes du Nord" title="Comoe" tag="Nature" />
+        <DestinationCard image="/abidjan.png" place="Region des Lagunes" title="Abidjan" tag="Urbain" />
+        <DestinationCard image="/assinie.png" place="Sud-Ouest" title="Assinie" tag="Plages" />
+        <DestinationCard image="/comoe.png" place="Savanes du Nord" title="Comoe" tag="Nature" />
       </div>
     </section>
   )

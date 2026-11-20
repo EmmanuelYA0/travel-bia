@@ -5,7 +5,7 @@ const Guide = () => {
     <section id="experience" className="bg-[#f5f0e6] py-24">
       <div className="padding-container max-container grid items-center gap-14 lg:grid-cols-2">
         <div className="relative min-h-[520px]">
-          <Image src="/img-2.png" alt="Paysage de Cote d Ivoire" fill className="rounded-[32px] object-cover" />
+          <Image src="/grand-bassam.png" alt="Paysage de Cote d Ivoire" fill className="rounded-[32px] object-cover" />
           <div className="absolute bottom-6 left-6 right-6 rounded-[24px] bg-white p-5 shadow-xl sm:right-auto sm:w-[320px]">
             <div className="flex items-center justify-between">
               <div>
